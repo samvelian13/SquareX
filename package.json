@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "heroku-prebuild": "(cd backend && npm i) & (cd frontend && npm i)",
+    "heroku-postbuild": "cd frontend && npm run build && rm -rf ../backend/public/dist && mv dist ../backend/public/",
+    "start": "cd backend && npx sequelize-cli db:migrate && npm run start:prod",
+    "db-seedall": "cd backend && npx sequelize-cli db:seed:all"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}

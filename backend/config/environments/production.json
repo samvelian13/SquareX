@@ -1,0 +1,11 @@
+{
+  "appName": "Coffee Shop",
+  "jwtSecret": "Coffee_Shop_Secret_Key",
+  "db" : {
+    "username": "a38nu9b47xgjjult",
+    "password": "yka7t4inlukhrjps",
+    "database": "frbrbejkwu5qqshg",
+    "host": "xq7t6tasopo9xxbs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}

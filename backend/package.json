@@ -1,0 +1,37 @@
+{
+  "name": "Coffee_Shop_API",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "description": "This is the API for Coffee Shop IOS application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/server",
+    "start:prod": "cross-env NODE_ENV=production node ./bin/server",
+    "migrate": "npx sequelize-cli db:migrate",
+    "seeder": "npx sequelize-cli db:seed:all",
+    "migrate:prod": "npx sequelize-cli db:migrate --env production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "convict": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "sequelize": "^4.37.10",
+    "sharp": "^0.24.0",
+    "cross-env": "^7.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "nodemon": "^2.0.2"
+  }
+}

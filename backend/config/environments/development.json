@@ -1,0 +1,11 @@
+{
+  "appName": "Coffee Shop",
+  "jwtSecret": "Coffee_Shop_Secret_Key",
+  "db" : {
+    "username": "root",
+    "password": "admin",
+    "database": "coffee_shop",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

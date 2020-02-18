@@ -1,0 +1,14 @@
+.v-data-table-header-mobile {
+  .v-select__slot {
+    display: none;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
